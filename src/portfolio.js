@@ -14,14 +14,14 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Developer 🚀 gaining experience of designing and building Web applications with JavaScript / Nodejs / MongoDb and some other cool libraries and frameworks."
   ),
-  resumeLink: "https://drive.google.com/file/d/1YqgEUSfbnYkm6G8DV6KYml-wz-13OYT8/view?usp=share_link",
+  resumeLink: "https://drive.google.com/file/d/1vDihYvCeai5ndYr53plyhdRWDXKsjwKi/view?usp=share_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/RilonNik",
+  github: "https://github.com/Kaushik-jagana",
   linkedin: "https://www.linkedin.com/in/kaushik-jagana-4991021bb/",
   gmail: "jaganakaushik@gmail.com",
   // gitlab: "https://gitlab.com/",
