@@ -121,11 +121,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "75%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
@@ -190,28 +190,39 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I HAVE MADE PERSONALLY",
   projects: [
     {
-      image: "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Asia/Thailand/Phuket/phuket-thailand-beach-boat-lead-main-guide.jpg",
+      image: require("./assets/images/Tourly.png"),
       projectName: "Tourly",
       projectDesc: "A fully Functional CRUD based tourism blog website where users can upload different places they have visited and can also give reviews to places where others have visited",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://ghumo-india.herokuapp.com/"
+          url: "https://tourly.onrender.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: "https://th.bing.com/th/id/OIP.RYsKHqksC3450NQnxSYt-wHaFP?pid=ImgDet&rs=1",
+      image: require("./assets/images/Bhejo.png"),
       projectName: "Bhejo",
       projectDesc: "A fully-functinal CRUD based E-commerce website where students can sell secondhand items,to other students within the campus",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://bhejo.herokuapp.com/"
+          url: "https://bhejo.onrender.com/home"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/Generator.png"),
+      projectName: "Transcript and Marksheet Generator",
+      projectDesc: "A interactive website which is used to generate Transcripts and Marksheets of the Students",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://transcript-marksheet.onrender.com/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
