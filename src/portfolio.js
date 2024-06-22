@@ -76,10 +76,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
+    {
+      skillName: "angularjs",
+      fontAwesomeClassname: "fab fa-angular"
+    },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -88,11 +88,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "mongoDb",
       fontAwesomeClassname: "fas fa-database"
     },
-   
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // }
+    {
+      skillName: "flutter",
+      fontAwesomeClassname: "fas fa-flutter"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -121,7 +120,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -138,13 +137,13 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
-      company: "Clever Programmer",
+      company: "Brane Enterprises",
       companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      date: "July 2023 – Present",
       desc:
         "Changing lives of developers one line of code at a time.",
       descBullets: [
@@ -154,22 +153,22 @@ const workExperiences = {
         "Creating tutorials"
       ]
     },
-    {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
-      desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
-    },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
-    }
+    // {
+    //   role: "Product Owner (PSD2)",
+    //   company: "Erste Bank",
+    //   companylogo: require("./assets/images/ersteLogo.jpg"),
+    //   date: "July 2019 – September 2020",
+    //   desc:
+    //     "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+    // },
+    // {
+    //   role: "Junior Information Security & Systems Representative",
+    //   company: "Vodafone",
+    //   companylogo: require("./assets/images/vodafoneLogo.png"),
+    //   date: "November 2018 – July 2019",
+    //   desc:
+    //     "I've conducted internal audit making sure the organization is compliant with the GDPR."
+    // }
   ]
 };
 
