@@ -11,10 +11,10 @@ const illustration = {
 const greeting = {
   username: "David Rakosi",
   title: "Hi all, I'm Kaushik ",
-  subTitle: emoji(
+  subTitle: 
     "A passionate Full Stack Developer 🚀 gaining experience of designing and building Web applications with JavaScript / Nodejs / MongoDb and some other cool libraries and frameworks."
-  ),
-  resumeLink: "https://drive.google.com/file/d/1vDihYvCeai5ndYr53plyhdRWDXKsjwKi/view?usp=share_link",
+  ,
+  resumeLink: "https://drive.google.com/file/d/1FHwVlynTNNw2XsTby6PXh3C7rW1KZXjm/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -39,9 +39,8 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
-    ),
+    ,
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     // emoji(
     //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
@@ -64,7 +63,7 @@ https://fontawesome.com/icons?d=gallery */
     //   skillName: "sass",
     //   fontAwesomeClassname: "fab fa-sass"
     // },
-    {
+    { 
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -90,7 +89,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "flutter",
-      fontAwesomeClassname: "fas fa-flutter"
+      fontAwesomeClassname: "fab fa-flutter"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -142,7 +141,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Brane Enterprises",
-      companylogo: require("./assets/images/cpLogo.png"),
+      companylogo: require("./assets/images/brane.jpg"),
       date: "July 2023 – Present",
       desc:
         "Changing lives of developers one line of code at a time.",
@@ -207,7 +206,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://bhejo.onrender.com/home"
+          url: "https://bhejo.netlify.app/home"
         }
       ]
     },
@@ -346,7 +345,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me ☎️",
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "9381626916",
