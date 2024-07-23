@@ -1,5 +1,6 @@
 .meter {
-  height: 20px;
+  height: 15px;
+  /* width: 450px; */
   position: relative;
   background: rgb(243, 239, 239);
   -moz-border-radius: 25px;
@@ -18,7 +19,11 @@
   overflow: hidden;
 }
 .skill {
-  line-height: 3.5vw;
+  text-align: right;
+  font-size: smaller;
+  line-height: 0.2vw;
+  padding-bottom: 15px;
+  
 }
 .skill-bars {
   font-size: 28px;

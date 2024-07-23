@@ -118,15 +118,34 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
+      Stack: "Javascript", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "ReactJs",
       progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
+      Stack: "AngularJs",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Flutter", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Python",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Java",
+      progressPercentage: "60%"
+    }, {
+      Stack: "MySQL",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "MongoDb",
       progressPercentage: "90%"
     }
   ],
@@ -143,13 +162,13 @@ const workExperiences = {
       company: "Brane Enterprises",
       companylogo: require("./assets/images/brane.jpg"),
       date: "July 2023 – Present",
-      desc:
-        "Changing lives of developers one line of code at a time.",
+      // desc:
+      //   "Changing lives of developers one line of code at a time.",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        " Engineered a dynamic scripting solution to support and integrate any user-provided UI with the companys platform.",
+        " Revamped Windows Canvas App by developing new features and fixing critical bugs.",
+        " Significantly enhanced our platform’s performance and user experience by resolving bugs using AngularJS.",
+        " Skills: Flutter, NodeJs, AngularJS"
       ]
     },
     // {
@@ -202,7 +221,7 @@ const bigProjects = {
     {
       image: require("./assets/images/Bhejo.png"),
       projectName: "Bhejo",
-      projectDesc: "A fully-functinal CRUD based E-commerce website where students can sell secondhand items,to other students within the campus",
+      projectDesc: "A fully-functional CRUD-based e-commerce website designed for students to buy and sell secondhand items within the campus community.",
       footerLink: [
         {
           name: "Visit Website",
