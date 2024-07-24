@@ -12,7 +12,7 @@ const greeting = {
   username: "David Rakosi",
   title: "Hi all, I'm Kaushik ",
   subTitle: 
-    "A passionate Full Stack Developer 🚀 gaining experience of designing and building Web applications with JavaScript / Nodejs / MongoDb and some other cool libraries and frameworks."
+    "A passionate Full Stack Developer 🚀 gaining experience of designing and building Web applications with cool libraries and frameworks."
   ,
   resumeLink: "https://drive.google.com/file/d/1FHwVlynTNNw2XsTby6PXh3C7rW1KZXjm/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -41,10 +41,10 @@ const skillsSection = {
   skills: [
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ,
-    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    // emoji(
-    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    // )
+    "⚡ Build scalable and robust full-stack applications from inception to deployment",
+
+      "⚡ Love crafting elegant solutions to complex problems through competitive programming."
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -119,7 +119,7 @@ const techStack = {
   experience: [
     {
       Stack: "Javascript", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
       Stack: "ReactJs",
@@ -127,11 +127,11 @@ const techStack = {
     },
     {
       Stack: "AngularJs",
-      progressPercentage: "90%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Flutter", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Python",
@@ -139,14 +139,14 @@ const techStack = {
     },
     {
       Stack: "Java",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }, {
       Stack: "MySQL",
       progressPercentage: "80%"
     },
     {
       Stack: "MongoDb",
-      progressPercentage: "90%"
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -225,7 +225,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://bhejo.netlify.app/home"
+          url: "https://bhejo.netlify.app"
         }
       ]
     },

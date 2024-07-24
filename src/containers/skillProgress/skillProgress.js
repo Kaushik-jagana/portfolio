@@ -11,7 +11,7 @@ export default function StackProgress() {
       <Fade bottom duration={1000} distance="10px">
         <div className="skills-container" id="skillProgresss">
           <div className="skills-bar">
-            <h1 className="skills-heading">Proficiency</h1>
+            <h1 className="skills-heading">Skills Proficiency</h1>
             {techStack.experience.map((exp, i) => {
               const progressStyle = {
                 width: exp.progressPercentage
@@ -33,7 +33,7 @@ export default function StackProgress() {
             ) : (
               <img
                 alt="Skills"
-                src={require("../../assets/images/developerActivity.svg")}
+                src={require("../../assets/images/skill.svg")}
               />
             )}
           </div>
