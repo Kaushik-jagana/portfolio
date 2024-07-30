@@ -14,7 +14,7 @@ const greeting = {
   subTitle: 
     "A passionate Full Stack Developer 🚀 gaining experience of designing and building Web applications with cool libraries and frameworks."
   ,
-  resumeLink: "https://drive.google.com/file/d/1FHwVlynTNNw2XsTby6PXh3C7rW1KZXjm/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1IIU7nH4Oxo1EnVL2DmvfPliFJXvPgWcK/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

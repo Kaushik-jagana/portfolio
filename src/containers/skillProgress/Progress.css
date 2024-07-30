@@ -48,7 +48,7 @@
 
 /* Media Query */
 
-@media (max-width: 1456px) {
+@media (max-width: 1100px) {
   .skills-bar {
     line-height: 4rem;
   }
